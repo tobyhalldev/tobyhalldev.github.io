@@ -2,148 +2,163 @@
 
 
 <html>
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <head>
-    <style>
-* {
-  box-sizing: border-box;
-}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-/* Add a gray background color with some padding */
-body {
-  font-family: Verdana;
-  padding: 30px;
-  background: #f1f1f1;
-}
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  font-size: 50px;
-  text-align: center;
-  background: white;
-}
+    /* Add a gray background color with some padding */
+    body {
+      font-family: Verdana;
+      padding: 30px;
+      background: #f1f1f1;
+    }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      font-size: 50px;
+      text-align: center;
+      background: white;
+    }
 
-/* Right column */
-.rightcolumn {
-  float: right;
-  width: 25%;
-  height: auto;
-  padding-left: 20px;
-}
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
 
-/* Image */
-.img {
-  background-color: #aaa;
-  height: auto;
-  padding: 20px;
-}
+    /* Right column */
+    .rightcolumn {
+      float: right;
+      width: 25%;
+      height: auto;
+      padding-left: 20px;
+    }
 
-/* Add a card effect for articles */
-.card {
-   background-color: rgb(9, 172, 57);
-   padding: 20px;
-   margin-top: 20px;
-  }
+    /* Image */
+    .img {
+      background-color: #aaa;
+      height: auto;
+      padding: 20px;
+    }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    /* Add a card effect for articles */
+    .card {
+      background-color: rgb(9, 172, 57);
+      padding: 20px;
+      margin-top: 20px;
+    }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: (189, 187, 187);
-  margin-top: 20px;
-}
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-</style>
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: (189, 187, 187);
+      margin-top: 20px;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+
+      .leftcolumn,
+      .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  
+
   <div class="header">
-    <h2>Toby's Website</h2> 
+    <h2>Toby's Website</h2>
     <h2>hey Toby here</h2>
     <class="img"><img src="toby.jpg">
-</div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>TOBY</h2>
+          <div class="img"><img src="tobs.jpg"></div>
+        </div>
+        <p>Hi I am toby, I am 9 and this is my website</p>
+        <div class="card">
+          <h3>Popular Post</h3>
+          <div class="img">Image</div><br>
 
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>LOCKDOWN FUN!</h2>
-      <h5>Clapping for the NHS , every Thursday</h5>
-      <div class="img"><img src="clapping_for_the_NHS.jpg"></div>
-      <p>We clap for the NHS and key workers to say thank you for keeping us safe during the pandemic.</p>
-      <p>In this picture, I am wearing my cubs uniform because it was St.Georges day and we usually parade but this year we couldn't as it is not safe to meet in big groups. Everybody in our street comes out and makes noise, we get to bang saucepans really loudly!!!  </p>
-    </div>
-    <div class="card">
-      <h2>VE day celebrations</h2>
-      <h5>75th anniversary of the end of second world war in Europe, 08/05/2020</h5>
-      <div class="img"><img src="VE_day.jpg"><img src="VE_day pic 2.jpg"></div>
-      <p>We had a street party, we decorated the front of our house and made our own chocolate biscuits -(the twins <i>really </i>enjoyed these)</p>
-      <p>In the morning, we made bunting, had balloons,party hats,medals put pictures up, listend to music from the 40s and 30s and the girls dressed up in pretty dresses. Everybody in the street came out and we enjoyed a social distanced party with our neighbours. 
-        I think it is important to remember how bad the war was.
-      </p>
-      <h2>Making pasties</h2>
-    <h5>Today I made Cornish pasties from scratch, 05/05/2020</h5>
-    <div class="img"><img src="making_pasties.jpg"><img src="finished_pasties.jpg"><img src="eating_pasties.jpg"></div>
-    <p>First I made the filling with .450g potato, finely diced
-      .150g swede, finely diced
-      .150g onion, finely chopped
-      .300g beef skirt, finely chopped
-      .Salt and black pepper
-      .1tbsp plain flour
-      .40g butter</p>
-    <p>Then I got out a roll of tesco pastry. Finally, I tucked the filling into the pastry and cooked them in the oven for 50 minutes. They were delicious!
+        </div>
+      </div>
 
-    </div>
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>LOCKDOWN FUN!</h2>
+            <h5>Clapping for the NHS , every Thursday</h5>
+            <div class="img"><img src="clapping_for_the_NHS.jpg"></div>
+            <p>We clap for the NHS and key workers to say thank you for keeping us safe during the pandemic.</p>
+            <p>In this picture, I am wearing my cubs uniform because it was St.Georges day and we usually parade but
+              this year we couldn't as it is not safe to meet in big groups. Everybody in our street comes out and makes
+              noise, we get to bang saucepans really loudly!!! </p>
+          </div>
+          <div class="card">
+            <h2>VE day celebrations</h2>
+            <h5>75th anniversary of the end of second world war in Europe, 08/05/2020</h5>
+            <div class="img"><img src="VE_day.jpg"><img src="VE_day pic 2.jpg"></div>
+            <p>We had a street party, we decorated the front of our house and made our own chocolate biscuits -(the
+              twins <i>really </i>enjoyed these)</p>
+            <p>In the morning, we made bunting, had balloons,party hats,medals put pictures up, listend to music from
+              the 40s and 30s and the girls dressed up in pretty dresses. Everybody in the street came out and we
+              enjoyed a social distanced party with our neighbours.
+              I think it is important to remember how bad the war was.
+            </p>
+            <h2>Making pasties</h2>
+            <h5>Today I made Cornish pasties from scratch, 05/05/2020</h5>
+            <div class="img"><img src="making_pasties.jpg"><img src="finished_pasties.jpg"><img
+                src="eating_pasties.jpg"></div>
+            <p>First I made the filling with .450g potato, finely diced
+              .150g swede, finely diced
+              .150g onion, finely chopped
+              .300g beef skirt, finely chopped
+              .Salt and black pepper
+              .1tbsp plain flour
+              .40g butter</p>
+            <p>Then I got out a roll of tesco pastry. Finally, I tucked the filling into the pastry and cooked them in
+              the oven for 50 minutes. They were delicious!
+
+          </div>
+        </div>
+        <div class="card">
+          </p>
+        </div>
+      </div>><br>
+
   </div>
   <div class="card">
-    </p>
+    <h3>My Links</h3>
+    <p><a style="color: black;" href="https://tobyhall.dev/">My Website</a></p>
+    <p><a style="color: black;" href="helloworld.docx"> click here to get word file</a></p>
+    <p><a style="color: black;" href="https://www.goodtoknow.co.uk/recipes/hairy-bikers-the-people-s-cornish-pasty">
+        click here to get link for pasties</a></p>
   </div>
-</div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>TOBY</h2>
-      <div class="img" style="height:100px;"><img src="tobs.jpg"></div>
-    </div>
-    <p>Hi I am toby, I am 9 and this is my website</p>
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="img">Image</div><br>
-
-    </div>
-    <div class="card">
-      <h3>My Links</h3>
-      <p><a  style= "color: black;" href="https://tobyhall.dev/">My Website</a></p>
-      <p><a style= "color: black;"href="helloworld.docx"> click here to get word file</a></p>
-      <p><a style= "color: black;"href="https://www.goodtoknow.co.uk/recipes/hairy-bikers-the-people-s-cornish-pasty"> click here to get link for pasties</a></p>
-    </div>
   </div>
-</div>
+  </div>
 
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
 
 </body>
+
 </html>
